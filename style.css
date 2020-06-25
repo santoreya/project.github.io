@@ -1,0 +1,140 @@
+body{
+background:url(images/bg.png) no-repeat center top #83C9B6;
+padding:0; font-family:arial, sans-serif; font-size:11px;
+margin:0px;
+color:#333333;
+}
+p{
+padding:0px;
+text-align:justify;
+margin:0px;
+line-height:17px;
+}
+a{
+text-decoration:underline;
+}
+#main_container{
+width:950px;
+height:auto;
+margin:auto;
+padding:0px;
+position:relative;
+background-color:#FFFFFF;
+}
+.me{
+position:absolute;
+top:120px;
+right:40px;
+}
+/*Шапка*/
+#header{
+width:950px;
+height:175px;
+background:url(images/top_bg.jpg) no-repeat center;
+margin:0px;
+padding:0px;
+}
+#header_logo{
+width:245px;
+height:61px;
+float:left;
+padding:35px 0 0 20px;
+}
+.title{
+width: auto;
+padding:2px 0 5px 0;
+font-size:14px;
+color:#E459EF;
+font-weight:bold;
+}
+#introduction{
+width:400px;
+height:auto;
+float:left;
+padding:0px 15px 0px 10px ;
+border-left:1px #8c3426 dotted;
+border-right:1px #8c3426 dotted;
+margin:20px 0 0 30px;
+}
+.menu_1{
+clear:both;
+width:auto;
+height:23px;
+padding:22px 0 0 30px;
+}
+.menu_1 ul{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+.menu_1 ul li{
+display:inline;
+}
+.menu_1 ul li a{
+float:left;
+border:none;
+padding-right:18px;
+text-decoration:none;
+color:#000000;
+font-size:14px;
+font-style:italic;
+font-weight:bold;
+}
+.menu_1 ul li a:hover{
+color:#E459EF;
+text-decoration:line-through;
+}
+/*Главный контент*/
+#center_content{
+width:950px;
+height:340px;
+padding-top:25px;
+background:url(images/center_bg.gif) no-repeat top center;
+}
+.about_me{
+width:400px;
+float:left;
+padding:20px;
+}
+.social_media{
+width:200px;
+float:left;
+padding:20px 10px 10px 10px;
+}
+ul.list{
+list-style:none; padding:0px; margin:0px; 
+}
+ul.list li{
+list-style:none; width:auto; height:auto; padding:0px;
+}
+ul.list li a{
+height: 16px; width:auto; display:block; padding:0 0 0 15px; margin:5px 10px 10px 0; color:#000; text-align:left; font-size:11px;
+background:url(images/list_arrow.gif) no-repeat left; text-decoration:none;
+}
+ul.list li.services a{
+height: 16px; width:auto; display:block; padding:0 0 0 15px; margin:5px 10px 10px 0; color:#000; text-align:left; font-size:12px;
+background:url(images/list_arrow.gif) no-repeat left; text-decoration:underline;
+}
+ul.list li a:{
+height: 16px; width:auto; text-decoration:underline; color:#000;
+}
+/*Подвал*/
+#footer{
+width:950px;
+height:71px;
+clear:both;
+color:#E459EF;
+background:url(images/footer.gif) no-repeat center #fff;
+}
+.menu_2{
+float:left;
+padding:15px;
+}
+#footer a{
+color:#E459EF;
+padding:0 5px 0 5px;
+}
+.site{
+float:right;
+padding:20px 20px 0 0 ;
+}
